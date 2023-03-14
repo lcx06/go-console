@@ -9,7 +9,7 @@ import (
 
 	"github.com/creack/pty"
 
-	"github.com/runletapp/go-console/interfaces"
+	"github.com/lcx06/go-console/interfaces"
 )
 
 var _ interfaces.Console = (*consoleNix)(nil)

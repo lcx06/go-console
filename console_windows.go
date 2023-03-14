@@ -11,7 +11,7 @@ import (
 	"syscall"
 
 	"github.com/iamacarpet/go-winpty"
-	"github.com/runletapp/go-console/interfaces"
+	"github.com/lcx06/go-console/interfaces"
 )
 
 // Do the interface allocations only once for common

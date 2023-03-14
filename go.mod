@@ -1,4 +1,4 @@
-module github.com/runletapp/go-console
+module github.com/lcx06/go-console
 
 go 1.16
 

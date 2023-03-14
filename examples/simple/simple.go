@@ -6,8 +6,6 @@ import (
 	"os"
 	"runtime"
 	"sync"
-
-	"github.com/runletapp/go-console"
 )
 
 func main() {
