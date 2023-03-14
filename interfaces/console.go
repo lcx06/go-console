@@ -38,4 +38,7 @@ type Console interface {
 
 	// Signal sends a signal to the process. See exec/Process.Signal
 	Signal(sig os.Signal) error
+
+	// GetFile returns the OS file descriptor
+	GetFile() *os.File
 }

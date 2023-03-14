@@ -1,3 +1,4 @@
+//go:build !windows
 // +build !windows
 
 package console
@@ -147,4 +148,8 @@ func (c *consoleNix) Signal(sig os.Signal) error {
 	}
 
 	return c.cmd.Process.Signal(sig)
+}
+
+func (c *consoleNix) GetFile() *os.File {
+	return c.file
 }

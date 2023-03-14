@@ -266,3 +266,7 @@ func (c *consoleWindows) Signal(sig os.Signal) error {
 
 	return proc.Signal(sig)
 }
+
+func (c *consoleWindows) GetFile() *os.File {
+	return c.file.StdOut
+}
